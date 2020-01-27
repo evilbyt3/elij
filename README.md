@@ -1,4 +1,4 @@
-# Elij
+# ELF File Injector
 A simple C script that will let you run arbitrary code on almost every ELF file.
 
 ## The method used
