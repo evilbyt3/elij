@@ -6,7 +6,7 @@ This is a fairly simple and old method, but very effective. Basically we search 
 After the payload was injected, we need to modify the entry point of the ELF file (in the ELF Header) ,with the address at which the payload resides, and also patch the payload (after it was executed) to jump to the original entry point.
 
 ## Installing && Usage
-In order to install it, you just need to clone the repository: ```git clone https://github.com/Volkyz/Elij.git```.<br />
+In order to install it, you just need to clone the repository: ```git clone https://github.com/vlagh3/Elij.git```.<br />
 After you have cloned it, you need to compile it: ```gcc -o elfij elfij.c```.<br />
 The script will ask you for the file that you want to infect and the payload, just provide them and now the file is executing the payload code.
 
